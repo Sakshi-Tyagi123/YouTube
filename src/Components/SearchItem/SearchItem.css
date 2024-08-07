@@ -1,0 +1,44 @@
+.search{
+    display: flex ; 
+    flex-direction: column;
+    margin-top: 15px;
+ }
+
+ .search-card{
+    display: flex;
+    margin-top: 12px;
+ }
+ .search-card img{
+    width: 100%;
+    border-radius: 5px;
+    
+   }
+
+   .card-2{
+    margin-left: 12px;
+   }
+
+   .search-card h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 5px 0;
+}
+
+.search-card h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin: 6px 0;
+}
+
+.search-card p{
+    font-size: 14px;
+}
+
+@media (max-width:900px){
+    .search-card{
+        flex-direction: column;
+    }
+   
+}
